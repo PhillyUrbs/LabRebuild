@@ -51,7 +51,6 @@ In the default config, this script will configure the following
         - [ ] Issuing CA
     - [ ] Remote Help
     - [ ] Windows Autopatch
-
 - [ ] Windows 365 policies
     - [ ] Enterprise Provisioning Policy
     - [ ] Frontline Provisioning Policy
@@ -65,7 +64,12 @@ Assuming you have created your tenant from the Compliance template in CDX, you'l
     - Microsoft Teams Enterprise
     - Office 365 E3
 
-# Final Thoughts
+# Some Thoughts
+Part of the goal of this project is to help me learn how to use the Microsoft Graph. Ideally all interaction with tenants and subscriptions will be done with graph calls.
+
 If you find this helpful, please star the project.
 
 If you have something to contribute, please submit a pull request.
+
+# References
+- https://github.com/microsoftgraph/powershell-intune-samples
