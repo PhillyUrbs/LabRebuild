@@ -73,3 +73,5 @@ If you have something to contribute, please submit a pull request.
 
 # References
 - https://github.com/microsoftgraph/powershell-intune-samples
+
+also a test
