@@ -18,7 +18,7 @@ At least one of each of the following licenses are required
 - Windows 365 Frontline (any configuration)
 
 # Final Configuration
-This script will configure the following
+In the default config, this script will configure the following
 - [ ] Entra Groups
     - [ ] Assigned
         - [ ] License Assignment
@@ -27,8 +27,31 @@ This script will configure the following
         - [ ] Azure Virtual Desktop targeting
     - [ ] Dynamic
         - [ ] Windows 365 devices
-- [ ] Intune policies
-    - [ ] 
+- [ ] Intune
+    - [ ] Applications
+        - [ ] Enterprise App Catalog Apps
+            - [ ] 7-Zip
+            - [ ] Citrix Receiver
+            - [ ] Google Chrome for Business
+            - [ ] IrfanView
+            - [ ] Microsoft PowerTowys
+            - [ ] Microsoft Visual C++ 2008 Redistributable
+            - [ ] Microsoft Visual C++ 2015-2022 Redistributable
+            - [ ] Microsoft Visual Studio Code
+            - [ ] Mozilla Firefox
+            - [ ] Remote Help
+        - [ ] Microsoft Store apps (new) (as both system and user)
+            - [ ] Company Portal
+            - [ ] Windows App
+    - [ ] Policies
+        - [ ] Cert - Device (from Cloud PKI)
+        - [ ] Cert - User (from Cloud PKI)
+    - [ ] Cloud PKI
+        - [ ] Root CA
+        - [ ] Issuing CA
+    - [ ] Remote Help
+    - [ ] Windows Autopatch
+
 - [ ] Windows 365 policies
     - [ ] Enterprise Provisioning Policy
     - [ ] Frontline Provisioning Policy
