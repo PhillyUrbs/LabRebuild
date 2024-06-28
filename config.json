@@ -1,0 +1,56 @@
+{
+    "Entra": {
+        "Groups": {
+            "Assigned": {
+                "LicenseAssignment": true,
+                "IntuneConfigurationTargeting": true,
+                "Windows365Targeting": true,
+                "AzureVirtualDesktopTargeting": true
+            },
+            "Dynamic": {
+                "Windows365Devices": true
+            }
+        }
+    },
+    "Intune": {
+        "Applications": {
+            "EnterpriseAppCatalogApps": [
+                "7-Zip",
+                "Citrix Receiver",
+                "Google Chrome for Business",
+                "IrfanView",
+                "Microsoft PowerTowys",
+                "Microsoft Visual C++ 2008 Redistributable",
+                "Microsoft Visual C++ 2015-2022 Redistributable",
+                "Microsoft Visual Studio Code",
+                "Mozilla Firefox",
+                "Remote Help"
+            ],
+            "MicrosoftStoreApps": {
+                "System": [
+                    "9WZDNCRFJ3PZ",
+                    "9N1F85V9T8BN"
+                ],
+                "User": [
+                    "9WZDNCRFJ3PZ",
+                    "9N1F85V9T8BN"
+                ]
+            }
+        },
+        "Policies": {
+            "CertDevice": true,
+            "CertUser": true
+        },
+        "CloudPKI": {
+            "RootCA": true,
+            "IssuingCA": true
+        },
+        "RemoteHelp": true,
+        "WindowsAutopatch": true
+    },
+    "Windows365Policies": {
+        "EnterpriseProvisioningPolicy": true,
+        "FrontlineProvisioningPolicy": true,
+        "UserPolicies": true
+    }
+}
